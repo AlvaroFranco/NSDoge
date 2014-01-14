@@ -10,13 +10,13 @@
 
 @implementation NSDoge
 
-@synthesize doge;
+@synthesize words;
 
 -(id)init {
     
     if (self = [super init]) {
         
-        doge = @[@"much",@"such",@"so",@"dat"];
+        words = @[@"much",@"such",@"so",@"dat"];
     }
     
     return self;
@@ -30,8 +30,8 @@
     
     for (int i = 0; i < array.count; i ++) {
         
-        uint32_t random = arc4random_uniform([doge count]);
-        [dogeArray addObject:[NSString stringWithFormat:@"%@ %@",[doge objectAtIndex:random],[array objectAtIndex:i]]];
+        uint32_t random = arc4random_uniform([words count]);
+        [dogeArray addObject:[NSString stringWithFormat:@"%@ %@",[words objectAtIndex:random],[array objectAtIndex:i]]];
     }
     
     [dogeArray addObject:@"amaze"];

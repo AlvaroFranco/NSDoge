@@ -12,15 +12,15 @@ NSDoge turns a simply and tasteless array into a doge-ready array.
 
 First of all, import the class into the project and then into your model, controller or whatever.
 
-```#import "NSDoge.h"```
+    #import "NSDoge.h"
 
 Just init NSDoge like others classes.
 
-```NSDoge *doge = [NSDoge alloc]init];```
+    NSDoge *doge = [NSDoge alloc]init];
 
 Then, get the doge-ready array with this method:
 
-```[doge createDogeWithArray:array]];```
+    [doge createDogeWithArray:array]];
 
 Now you are ready to go!
 
@@ -41,6 +41,13 @@ The output will be sort of:
       "dat array",
       "amaze"
     )
+
+###Customization
+
+If you want to use your own doge words, is as simple as:
+
+    NSDoge *doge = [NSDoge alloc]init];
+    doge.words = @[@"such",@"dat",@"so",@"much"];
 
 
 ###DISCLAIMER: Comic Sans MS is highly recommended for printing the doge array

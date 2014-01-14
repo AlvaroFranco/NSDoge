@@ -10,7 +10,7 @@
 
 @interface NSDoge : NSObject
 
-@property (nonatomic, strong) NSArray *doge;
+@property (nonatomic, strong) NSArray *words;
 
 -(NSArray *)createDogeWithArray:(NSArray *)array;
 
