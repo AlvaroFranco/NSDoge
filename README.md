@@ -24,7 +24,7 @@ Then, get the doge-ready array with this method:
 
 Now you are ready to go!
 
-###DISCLAIMER: Comic SansMS is highly recommended for printing the doge array
+###DISCLAIMER: Comic Sans MS is highly recommended for printing the doge array
 
 #####Author: Alvaro Franco
 #####Contact: <mailto:alvarofrancoayala@gmail.com>
