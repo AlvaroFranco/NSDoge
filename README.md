@@ -24,6 +24,25 @@ Then, get the doge-ready array with this method:
 
 Now you are ready to go!
 
+###Example
+
+If the input is something like:
+
+    @[@"xcode",@"code",@"class",@"string",@"array"]
+
+The output will be sort of:
+
+    (
+      "wow",
+      "such xcode",
+      "much code",
+      "such class",
+      "so string",
+      "dat array",
+      "amaze"
+    )
+
+
 ###DISCLAIMER: Comic Sans MS is highly recommended for printing the doge array
 
 #####Author: Alvaro Franco
