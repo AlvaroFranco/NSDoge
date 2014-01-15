@@ -49,9 +49,6 @@ If you want to use your own doge words, is as simple as:
     NSDoge *doge = [NSDoge alloc]init];
     doge.words = @[@"such",@"dat",@"so",@"much"];
 
-
-###DISCLAIMER: Comic Sans MS is highly recommended for printing the doge array
-
 ###License
 
 This software uses MIT License.
@@ -59,3 +56,5 @@ This software uses MIT License.
 ###Contact
 #####Author: Alvaro Franco
 #####email: <mailto:alvarofrancoayala@gmail.com>
+
+###DISCLAIMER: Comic Sans MS is highly recommended for printing the doge array
