@@ -16,7 +16,7 @@ First of all, import the class into the project and then into your model, contro
 
 Just init NSDoge like others classes.
 
-    NSDoge *doge = [NSDoge alloc]init];
+    NSDoge *doge = [[NSDoge alloc]init];
 
 Then, get the doge-ready array with this method:
 
