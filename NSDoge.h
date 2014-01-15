@@ -12,6 +12,6 @@
 
 @property (nonatomic, strong) NSArray *words;
 
--(NSArray *)createDogeWithArray:(NSArray *)array;
+-(NSMutableArray *)createDogeWithArray:(NSArray *)array;
 
 @end

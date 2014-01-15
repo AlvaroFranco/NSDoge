@@ -46,7 +46,7 @@ The output will be sort of:
 
 If you want to use your own doge words, is as simple as:
 
-    NSDoge *doge = [NSDoge alloc]init];
+    NSDoge *doge = [[NSDoge alloc]init];
     doge.words = @[@"such",@"dat",@"so",@"much"];
 
 ###License

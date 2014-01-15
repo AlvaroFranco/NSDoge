@@ -16,7 +16,7 @@
     
     if (self = [super init]) {
         
-        words = @[@"much",@"such",@"so",@"dat",@"very"];
+        words = @[@"much",@"such",@"so",@"dat",@"very",@"many"];
     }
     
     return self;
