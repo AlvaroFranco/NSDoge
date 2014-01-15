@@ -20,7 +20,7 @@ Just init NSDoge like others classes.
 
 Then, get the doge-ready array with this method:
 
-    [doge createDogeWithArray:array]];
+    [doge createDogeWithArray:array];
 
 Now you are ready to go!
 
@@ -36,7 +36,7 @@ The output will be sort of:
       "wow",
       "such xcode",
       "much code",
-      "such class",
+      "very class",
       "so string",
       "dat array",
       "amaze"
@@ -52,5 +52,10 @@ If you want to use your own doge words, is as simple as:
 
 ###DISCLAIMER: Comic Sans MS is highly recommended for printing the doge array
 
+###License
+
+This software uses MIT License.
+
+###Contact
 #####Author: Alvaro Franco
-#####Contact: <mailto:alvarofrancoayala@gmail.com>
+#####email: <mailto:alvarofrancoayala@gmail.com>
